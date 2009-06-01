@@ -87,12 +87,6 @@ namespace :deploy do
 
   desc "Set the correct permissions for the cache folders"
   task :set_permissions, :roles => :app do
-    # run "chmod 777 #{current_release}/images/avatars/uploads/"
-    # run "chmod 777 #{current_release}/images/captchas/"
-    # run "chmod 777 #{current_release}/images/member_photos/"
-    # run "chmod 777 #{current_release}/images/pm_attachments/"
-    # run "chmod 777 #{current_release}/images/signature_attachments/"
-    # run "chmod 777 #{current_release}/images/uploads/"
     run "chmod 777 #{current_release}/#{ee_system}/cache/"
   end
 
