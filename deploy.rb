@@ -1,6 +1,6 @@
 ################################################################################
 # Capistrano recipe for deploying ExpressionEngine websites from GitHub        #
-# By Dan Benjamin - http://example.com/                                      #
+# By Dan Benjamin - http://example.com/                                        #
 ################################################################################
 
 
